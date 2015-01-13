@@ -5,7 +5,7 @@
  */
 /**
  *
- * @author davesnx
+ * @author sergito6
  */
 public class Butaca {
     
