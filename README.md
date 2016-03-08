@@ -1,5 +1,5 @@
-# rxdux
-It's another(as usual in Frond-end) simple approach to join Redux with RxJS and create a Reactive React application.
+# rxduce
+It's another(as usual in Frond-end) simple approach to implement Redux on top of RxJS and create a Reactive React application.
 
 ## Values
 Right now it's only the typical counter example... but the objective is:
@@ -9,7 +9,7 @@ Right now it's only the typical counter example... but the objective is:
 - decouple the components-behaviour (onClicks/onFocus/inputs/etc...) from the view like [Cycle.js](http://cycle.js.org/)
 
 ## Motivation
-**rxdux** is trying to find the way of handling the state of a container with *Async-Data-Happening-All-The-Time* with the simplicity of **Redux** and maintain the grade of complexity on a application without falling into [**TheWrongRateOfDeveloping**](https://twitter.com/andrestaltz/status/702188753016717313)(production rate < consumption rate)
+**rxduce** is trying to find the way of handling the state of a container with *Async-Data-Happening-All-The-Time* with the simplicity of **Redux** and maintain the grade of complexity on a application without falling into [**TheWrongRateOfDeveloping**](https://twitter.com/andrestaltz/status/702188753016717313)(production rate < consumption rate)
 
 ## Inspiration
 - Thanks to [@jas-chen](https://github.com/jas-chen) for his two great projects: [react-reactive-class](https://github.com/jas-chen/react-reactive-class) [thisless-react](https://github.com/jas-chen/thisless-react)
@@ -18,7 +18,7 @@ Right now it's only the typical counter example... but the objective is:
 
 ## Run
 ```
-git clone https://github.com/davesnx/rxdux
+git clone https://github.com/davesnx/rxduce
 
 cd counter
 npm install
