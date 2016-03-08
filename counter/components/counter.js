@@ -19,13 +19,14 @@ const Button = ({text, clickEvent$}) => {
 }
 
 // It's the equivalent mapStateToProps of redux
-// TODO: Implement connect(?)
 function mapStateToEvents (state$) {
   return {
     counter$: state$.map(state => state.counter)
   }
 }
 
+// As we consider Counter as a container he's able to
+// get the state from the store and dispatch actions
 const counter = (store, events$) => {
   const { counter$ } = mapStateToEvents(store.state$)
   const {

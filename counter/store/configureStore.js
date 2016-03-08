@@ -13,3 +13,14 @@ export default function configureStore (initialState) {
   store.state$ = state$.startWith(store.getState())
   return store
 }
+
+// TODO: Implement connect: (?)
+// TODO: Implement middleWares: (?)
+//
+//      connect(state, fn) {
+//        this.dispatcher
+//          .let(this._preMiddleware)
+//          .scan((state, action) => this._reducer(state, action), this._initialState)
+//          .let(this._postMiddleware)
+//          .subscribe(fn);
+//      }
