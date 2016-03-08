@@ -1,4 +1,4 @@
-# rxduce [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+# Rxduce [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 > Work in progress...
 
@@ -12,11 +12,11 @@ Right now it's only the typical counter example... but the objective is:
 - decouple the components-behaviour (onClicks/onFocus/inputs/etc...) from the view like [Cycle.js](http://cycle.js.org/)
 
 ## Motivation
-**rxduce** is trying to find *the way of handling the state of a container with __Async-Data-Happening-All-The-Time__* with the simplicity of **Redux** and maintain the grade of complexity on a application without falling into [**TheWrongRateOfDeveloping**](https://twitter.com/andrestaltz/status/702188753016717313) *(production rate < consumption rate)*
+**Rxduce** is trying to find *the way of handling the state of a container with __Async-Data-Happening-All-The-Time__* with the simplicity of **Redux** and maintain the grade of complexity on a application without falling into [**TheWrongRateOfDeveloping**](https://twitter.com/andrestaltz/status/702188753016717313) *(production rate < consumption rate)*
 
 ## Run
 ```bash
-git clone https://github.com/davesnx/rxduce
+git clone https://github.com/davesnx/Rxduce
 
 cd counter
 npm install
