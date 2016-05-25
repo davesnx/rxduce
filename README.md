@@ -1,18 +1,14 @@
-# Rxduce [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+# rxduce [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 > Work in progress...
 
-It's another *(**as usual in Front-end**)* simple approach to implement [Redux](http://redux.js.org/) on top of [RxJS](https://github.com/Reactive-Extensions/RxJS) and create a [Reactive](http://reactivex.io/) React application.
+It's another *(**as usual in Front-end**)* simple approach to play with [Redux](http://redux.js.org/) on top of [RxJS](https://github.com/Reactive-Extensions/RxJS) and match with a React application.
 
-## Values
-Right now it's only the typical counter example... but the objective is:
-- create a **API** for binding RxJS with React in the Redux way
-- define new concepts like **events$**, that match more with Reactive Programing or update
-- create a **ReactiveComponent** implementing [rx-react](https://github.com/fdecampredon/rx-react) and [react-reactive-class](https://github.com/jas-chen/react-reactive-class)
-- decouple the components-behaviour (onClicks/onFocus/inputs/etc...) from the view like [Cycle.js](http://cycle.js.org/)
+## Objective
+Right now it's only the typical counter example... but the objective is: create a **API** for binding RxJS with React in the Redux way, creating connect, container, bindActions, etc...
 
 ## Motivation
-**Rxduce** is trying to find *the way of handling the state of a container with __Async-Data-Happening-All-The-Time__* with the simplicity of **Redux** and maintain the grade of complexity on a application without falling into [**TheWrongRateOfDeveloping**](https://twitter.com/andrestaltz/status/702188753016717313) *(production rate < consumption rate)*
+**rxduce** is trying to find *the way of handling the state of a container with __Async-Data-Happening-All-The-Time__* with the simplicity of **Redux** and maintain the [3 Redux principles](http://redux.js.org/docs/introduction/ThreePrinciples.html) with creating the State as observables, be able to do observable operations with this State and match with actions.
 
 ## Run
 ```bash
