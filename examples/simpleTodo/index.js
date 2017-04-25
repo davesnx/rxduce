@@ -5,16 +5,18 @@ const state = {
   visibilityFilter: 'all'
 }
 
-const actions = {
-  'addTodo' (state, todo) {
-    state.push(todo)
+const update = {
+  'addTodo' (state, payload) {
+    state.push(payload)
   }
 }
 
-const store = createStore(state, actions)
+const store = createStore(state, update)
+
+store.dispatch('addTodo', 23)
 
 store.subscribe((value) => {
-  console.log(value)
+  console.log('value', value)
 })
 
-store.dispatch('addTodo', 123)
+store.dispatch('addTodo', 999)
