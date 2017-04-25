@@ -5,10 +5,8 @@ const state = {
   visibilityFilter: 'all'
 }
 
-const update = {
-  'addTodo' (state, payload) {
-    state.push(payload)
-  }
+function update (state, payload) {
+  return state.push(payload)
 }
 
 const store = createStore(state, update)
